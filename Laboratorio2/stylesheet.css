@@ -1,0 +1,45 @@
+.rectangle {
+    background: tomato;
+    padding: 5px;
+    width: 100px; 
+    /*height: 75px;*/
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 75px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+
+}
+  #title{
+    align-items: center;
+    justify-items: center;
+  }
+
+  #uno{
+    order: 2;
+
+  }
+
+  #dos{
+    order: 3;
+    flex-grow: 2;
+}
+#tres{
+    order: 4;
+}
+#cuatro{
+order: 5;    
+}
+#cinco{
+    order: 6;
+}
+#seis{
+    order: 1;
+}
